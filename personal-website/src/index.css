@@ -3,12 +3,34 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, serif;
-    background: #000000;
-    color: #ffffff;
+    font-family: 'Gelasio', serif;
+    color: #9B0808;
 }
 
 @layer utilities {
+    /*@keyframes backgroundTransition {
+        0% { background-color: #9B0808; }  
+        10% { background-color: #bf2828; }  
+        25% { background-color: #D30606; }   
+        35% { background-color: #fa3535; }   
+        50% { background-color: #FA4444; }   
+        65% { background-color: #f05757; }   
+        80% { background-color: #EF6376; }   
+        90% { background-color: #f17c8b; }   
+        100% { background-color: #9B0808; }  
+    }
+
+    .animate-background {
+        animation: backgroundTransition 20s ease-in-out infinite;
+    }*/
+
+    .bg-image {
+        background-image: url('/src/assets/background.jpg'); /* Adjust path as needed */
+        background-size: cover; /* Fills the entire area */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+    }
+
     @keyframes blink {
         0%, 100% {
             opacity: 1;
