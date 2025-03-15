@@ -16,7 +16,7 @@ export const Home = () => {
                     </a>
                     <a 
                         className="border border-[#9B0808] text-[#9B0808] py-3 px-6 rounded font-medium transition-all duration-200 overflow-hidden hover:-translate-y-0.5 
-                        hover:shadow-[0_0_15px_rgba(246, 59, 59, 0.2)] hover:bg-[#FBAAAA]" href="#contact">
+                        hover:shadow-[0_0_15px_rgba(246, 59, 59, 0.2)] hover:bg-[#fc8d8d]" href="#contact">
                         Contact Me
                     </a>
                 </div>

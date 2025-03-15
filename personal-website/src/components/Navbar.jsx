@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Logo from "../assets/logo.png";
 
 export const Navbar = ( {menuOpen, setMenuOpen} ) => {
     useEffect(() => {
@@ -10,8 +11,8 @@ export const Navbar = ( {menuOpen, setMenuOpen} ) => {
         <nav className="fixed top-0 w-full z-40 bg-[#fa3535] backdrop-blur-5xl border-white/10 shadow-lg">
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
-                    <a href="#home" className="text-xl font-bold text-[#ffffff] hover:text-[#FBAAAA] transition-colors font-['Gelasio']">
-                        ༺ ♱ Barbara ♱ ༻
+                    <a href="#home" className="flex items center">
+                        <img src={Logo} alt="logo" className="h-15 w-auto cursor-pointer" />
                     </a>
 
                     <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden text-[#ffffff]" onClick={() => setMenuOpen((prev) => !prev)}>
