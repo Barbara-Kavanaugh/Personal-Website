@@ -24,13 +24,6 @@ html, body {
         animation: backgroundTransition 20s ease-in-out infinite;
     }*/
 
-    .bg-image {
-        background-image: url('/src/assets/background.jpg'); /* Adjust path as needed */
-        background-size: cover; /* Fills the entire area */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents tiling */
-    }
-
     @keyframes blink {
         0%, 100% {
             opacity: 1;

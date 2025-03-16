@@ -3,7 +3,7 @@ import { CgClose } from "react-icons/cg";
 export const MobileMenu = ( {menuOpen, setMenuOpen} ) => {
 
     return (
-        <div className={`font-['Gelasio'] fixed top-0 left-0 w-full bg-[#fa3535] z-40 flex flex-col items-center justify-center
+        <div className={`font-['Gelasio'] fixed top-0 left-0 w-full bg-[#9B0808] z-40 flex flex-col items-center justify-center
                         transition-all duration-300 ease-in-out
                         ${menuOpen ? "h-screen opacity-100 pointer-events-auto" : "h-0 opacity-0 pointer-events-none"}
                         `}>
