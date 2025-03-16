@@ -2,6 +2,8 @@ import { FaGraduationCap } from "react-icons/fa";
 import { IoIosBriefcase } from "react-icons/io";
 import { MdOutlineVolunteerActivism } from "react-icons/md";
 
+/* bg-[#e18c8c] */
+
 export const About = () => {
     const databaseSkills = ["Microsoft Azure", "Oracle", "SQL Server Management Studio", "MongoDB", "MariaDB"];
     const developmentSkills = ["Microsoft Power BI", "Visual Studio Code", "Jupyter Notebook", "Google Colab"];
