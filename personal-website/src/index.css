@@ -9,7 +9,7 @@ html, body {
 
 @layer utilities {
     /*@keyframes backgroundTransition {
-        0% { background-color: #9B0808; }  
+        0% { background-color:#9B0808 ; }  
         10% { background-color: #bf2828; }  
         25% { background-color: #D30606; }   
         35% { background-color: #fa3535; }   
