@@ -20,7 +20,6 @@
     .bg-image {
         background-image: url('/src/assets/background.png');
         background-size: contain;
-  
         background-repeat: repeat;
     }
 
