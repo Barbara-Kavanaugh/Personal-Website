@@ -36,9 +36,6 @@ export const Projects = () => {
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-white/30 hover:shadow-[0_2px_8px_rgba(246, 59, 59, 0.2)] transition-all">
                             <h3 className="text-xl font-bold mb-2">Ethereum Casino</h3>
                             <p className="mb-4">
-                                Built a web applicaion for Maryvale Preparatory School alumnae to create 
-                                profiles, connect with classmates, and 
-                                engage with job and message boards for networking.
                             </p>
                             <div>
                                 {["React", "Solidity", "Hardhat", "Etherscan"].map((tech, key) => (
