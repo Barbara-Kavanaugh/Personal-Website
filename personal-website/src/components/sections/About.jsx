@@ -70,8 +70,8 @@ export const About = () => {
                         About Me
                     </h2>
 
-                    <div className="text-black glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all backdrop-blur-xl shadow-lg shadow-[0_2px_8px_rgba(246,59,59,0.2)]">
-                        <p className="mb-6 font-semibold text-[#600b0b]">
+                    <div className="py-6 bg-[#ffe0e0]/80 backdrop-blur-lg text-black glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all shadow-[0_2px_8px_rgba(246,59,59,0.2)]">
+                        <p className="mb-6font-semibold text-[#600b0b]">
                             Detail-oriented and results-focused professional with a proven talent for converting complex data into clear, actionable insights that drive impactful decisions.
                         </p>
 
@@ -118,6 +118,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className="mt-8">
+                    <h2 className="text-4xl font-bold mb-8 text-[#600b0b] text-center">Experience</h2>
                         <VerticalTimeline lineColor="#e42727">
                             {timelineData.map((item, index) => (
                                 <VerticalTimelineElement
