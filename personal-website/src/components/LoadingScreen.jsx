@@ -1,4 +1,28 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { FaSpinner } from "react-icons/fa";
+
+export const LoadingScreen = ({ onComplete }) => {
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            onComplete();
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, [onComplete]);
+
+    return (
+        <div className="fixed inset-0 z-50 bg-[#b70000] text-gray-100 flex flex-col items-center justify-center">
+            <div className="mb-4">
+                <FaSpinner className="w-10 h-10 animate-spin" />
+            </div>
+            <div className="w-3/4 max-w-[200px] h-[2px] bg-white/20 rounded overflow-hidden">
+                <div className="w-[40%] h-full bg-red-300 shadow-[0_0_15px_#8B0000] animate-loading-bar" />
+            </div>
+        </div>
+    );
+};
+
+/*import { useEffect, useState } from "react";
 
 export const LoadingScreen = ({ onComplete }) => {
     const [text, setText] = useState("");
@@ -33,4 +57,4 @@ export const LoadingScreen = ({ onComplete }) => {
             </div>
         </div>
     )
-}
+}*/
