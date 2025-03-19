@@ -13,7 +13,7 @@ export const Home = () => {
                         <a 
                             className="bg-[#9B0808] text-white py-3 px-6 rounded font-medium transition relative 
                             overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(246, 59, 59, 0.4)] hover:bg-[#fa3535]" 
-                            href="/Barbara_Kavanaugh_Resume_2025.pdf" 
+                            href="https://drive.google.com/file/d/10fUbgL1mud_bnrNkRyxsJtv5eyJbclKI/view?usp=sharing" 
                             target="_blank" rel="noopener noreferrer">
                             View Resume
                         </a>
